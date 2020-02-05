@@ -1,0 +1,144 @@
+div {
+	background: linear-gradient(to top, #668cff, #ccd9ff);
+}
+
+
+.form img {
+	height: 210px;
+	width: 210px;
+	margin-bottom: 70px; 
+	margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"] {
+	height: 80px;
+	width: 720px;
+	font-size: 19px;
+	padding-left: 45px;
+}
+
+#username_input {
+	margin-bottom: 43px;
+	background-color: #CED2DE;
+	font-family: 'Titillium Web', sans-serif;
+	border: none;
+}
+
+
+#password_input {
+	background-color: #CED2DE;
+	font-family: 'Titillium Web', sans-serif;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 17px;
+}
+
+form {
+	padding: 0;
+	height: 735px;
+	width: 760px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#btn-remember, #btn-forget {
+	margin-top: 50px;
+}
+
+
+button {
+	margin-top: 60px;
+	height: 80px;
+	width: 386px;
+	font-size: 19px;
+	text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #343247;
+    border: none;
+    color: #B7B5C0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#btn-remember, #a_remember {
+	margin-left: 0px;
+}
+
+#btn-forget {
+	float: right;
+	color: #B7B5C0;
+}
+
+#a_remember {
+	color: #636468;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+i.fa {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: 30px;
+  left: 8px;
+}
+
+i.fa + #username_input + #password_input {
+  padding-left: 26px;
+}
+
+.label_check {
+    position: relative;
+    cursor: pointer;
+    padding-left: 20px;
+    color: #ccc;
+    top: 50px;
+}
+
+.spn_checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #343247;
+}
+
+.spn_checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.label_check input:checked ~ .spn_checkbox:after {
+    display: block;
+}
+
+.label_check .spn_checkbox:after {
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(130deg) scaleY(-1);
+}
+
+.checkbox {
+	display: none;
+}
